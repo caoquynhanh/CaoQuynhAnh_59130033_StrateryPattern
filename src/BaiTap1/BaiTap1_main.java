@@ -9,8 +9,10 @@ package BaiTap1;
  *
  * @author Asus
  */
-public class BaiTap1_main {
-    public static void main(String[] args) {
+public class BaiTap1_main 
+{
+    public static void main(String[] args) 
+    {
         Context ct = new Context();
         ct.setTinhToan(new Cong());
         System.out.println("75 + 12 = "+ct.tinh(75, 12));
