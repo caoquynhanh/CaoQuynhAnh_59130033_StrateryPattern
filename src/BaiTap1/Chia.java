@@ -9,10 +9,12 @@ package BaiTap1;
  *
  * @author Asus
  */
-public class Chia implements Tinh{
+public class Chia implements Tinh
+{
 
     @Override
-    public float tinh(float a, float b) {
+    public float tinh(float a, float b) 
+    {
         return a/b;
     }
     
