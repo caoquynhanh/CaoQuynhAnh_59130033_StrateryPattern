@@ -9,12 +9,13 @@ package BaiTap1;
  *
  * @author Asus
  */
-public class Nhan implements Tinh{
+public class Nhan implements Tinh
+{
 
     @Override
-    public float tinh(float a, float b) {
+    public float tinh(float a, float b) 
+    {
         return a*b;
-    }
-    
+    }   
     
 }
