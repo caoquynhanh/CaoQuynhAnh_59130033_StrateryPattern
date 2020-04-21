@@ -9,6 +9,7 @@ package BaiTap1;
  *
  * @author Asus
  */
-public interface Tinh {
+public interface Tinh 
+{
     float tinh(float a,float b);
 }
