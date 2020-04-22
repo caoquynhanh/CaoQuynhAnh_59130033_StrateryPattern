@@ -36,12 +36,12 @@ public class BaiTap2_main
         System.out.println("Thong tin cua gio hang 1: ");
         System.out.println("Danh sach hang hoa trong gio hang 1: ");
         giohang1.hienThiGioHang();
-        System.out.println("Tong tien hang: "+giohang1.thanhToan());
+        System.out.println("Tong tien hang: "+giohang1.tienHangGoc());
         System.out.println("Tong so tien khach phai tra: "+giohang1.thanhToan());      
         System.out.println("Thong tin cua gio hang 2: ");
         System.out.println("Danh sach hang hoa trong gio hang 2: ");
         giohang2.hienThiGioHang();
-        System.out.println("Tong tien hang hoa: "+giohang2.thanhToan());
+        System.out.println("Tong tien hang hoa: "+giohang2.tienHangGoc());
         System.out.println("Tong so tien khach phai tra: "+giohang2.thanhToan());
     }    
 }
