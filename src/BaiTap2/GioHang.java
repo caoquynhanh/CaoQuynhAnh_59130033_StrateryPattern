@@ -13,7 +13,7 @@ public class GioHang
 {
     IThanhToan hinhThucTT;
     ArrayList<HangHoa> dshh = new ArrayList<>();
-    
+    int tienHang = 0;
     public void setHinhThucTT(IThanhToan hinhThucTT)
     {
         this.hinhThucTT = hinhThucTT;
@@ -23,13 +23,14 @@ public class GioHang
     {
         dshh.add(hanghoa);        
     }
-
-    public double thanhToan()
-    {
-       int tienHang = 0;
-       for(int i=0;i<dshh.size();i++){
+    public int tienHangGoc(){
+        for(int i=0;i<dshh.size();i++){
            tienHang += dshh.get(i).getGia();
        }
+        return tienHang;
+    }
+    public double thanhToan()
+    {
        return hinhThucTT.thanhToan(tienHang);
     }
 
