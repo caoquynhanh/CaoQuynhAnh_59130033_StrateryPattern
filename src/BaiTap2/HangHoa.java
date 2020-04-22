@@ -49,4 +49,9 @@ public class HangHoa
         this.moTa = moTa;
     }
      
+    public void hienThiHangHoa()
+    {
+        System.out.println("Ten hang hoa: "+tenHH);
+        System.out.println("Gia hang hoa: "+gia);      
+    }
 }
