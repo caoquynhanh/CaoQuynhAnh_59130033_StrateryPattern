@@ -9,7 +9,7 @@ package BaiTap2;
  *
  * @author Asus
  */
-public interface IThanhToan {
-    double thanhToan (int tienHang);
-
+public interface IThanhToan 
+{
+    public double thanhToan (int tienHang);
 }
