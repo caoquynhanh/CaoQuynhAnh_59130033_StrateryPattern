@@ -52,6 +52,7 @@ public class HangHoa
     public void hienThiHangHoa()
     {
         System.out.println("Ten hang hoa: "+tenHH);
-        System.out.println("Gia hang hoa: "+gia);      
+        System.out.println("Gia hang hoa: "+gia); 
+        System.out.println("Mo ta hang hoa: "+moTa); 
     }
 }
